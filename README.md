@@ -10,7 +10,7 @@ env\Scripts\activate
 Iniciei o projento no Django com:
 pip install django -> Para fazer a instalação 
 
-Para iniciar o projeto. OBS.: sem (<>):
+Para iniciar o projeto. OBS.: sem (<>):\n
 django-admin startproject <NomeDoProjeto> .
 
 Rodando a aplicação: 
