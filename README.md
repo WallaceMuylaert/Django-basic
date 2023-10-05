@@ -18,6 +18,13 @@ python manage.py runserver
 
 -> Criando um app:
 python manage.py startapp <NomeDoApp>
+______________________________________________________________________________________________________________
+Erro ao tentar executar o comando "makemigrations"
+ERRORS:
+exames.TiposExames.horario_final: (fields.E210) Cannot use ImageField because Pillow is not installed.
+        HINT: Get Pillow at https://pypi.org/project/Pillow/ or run command "python -m pip install Pillow".
+______________________________________________________________________________________________________________
+Solução: $ python -m pip install Pillow
 
 Leu o models para criação de tabela no banco:
 python manage.py makemigrations
