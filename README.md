@@ -19,11 +19,12 @@ python manage.py runserver
 -> Criando um app:
 python manage.py startapp <NomeDoApp>
 
+Leu o models para criação de tabela no banco:
+python manage.py makemigrations
+
 Migração(salvar no banco):
 python manage.py migrate
 
-Leu o models para criação de tabela no banco:
-python manage.py makemigrations
 
 Criar user:
 python manage.py createsuperuser
